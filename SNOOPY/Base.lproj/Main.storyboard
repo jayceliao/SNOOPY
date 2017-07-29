@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -228,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSu-dG-Eo1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3158" y="34"/>
+            <point key="canvasLocation" x="3455" y="34"/>
         </scene>
         <!--Snoopy-->
         <scene sceneID="2vr-aZ-zkd">
@@ -268,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEj-9s-a13" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3887" y="34"/>
+            <point key="canvasLocation" x="4184" y="34"/>
         </scene>
         <!--Woodstock-->
         <scene sceneID="gp9-FH-fA7">
@@ -307,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fT7-ev-na5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4625" y="34"/>
+            <point key="canvasLocation" x="4922" y="34"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Dfz-U9-7Sn">
@@ -322,6 +323,7 @@
                     <connections>
                         <segue destination="Qi6-xQ-ofy" kind="relationship" relationship="viewControllers" id="o84-09-Ef9"/>
                         <segue destination="VGR-xz-bjf" kind="relationship" relationship="viewControllers" id="Bab-NI-1l2"/>
+                        <segue destination="1BF-M2-Yp6" kind="relationship" relationship="viewControllers" id="Swi-ZJ-PEz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttw-WO-fgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -332,7 +334,7 @@
         <scene sceneID="SO7-ZA-D9y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qi6-xQ-ofy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="劇情介紹" id="6TV-AV-nQn"/>
+                    <tabBarItem key="tabBarItem" title="劇情介紹" image="newspaper-7" selectedImage="newspaper-7" id="6TV-AV-nQn"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vtG-n7-Hgz">
@@ -352,7 +354,7 @@
         <scene sceneID="FVC-vg-TPN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VGR-xz-bjf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="角色介紹" id="ymW-M8-8Js"/>
+                    <tabBarItem key="tabBarItem" title="角色介紹" image="woman-man-7" selectedImage="woman-man-7" id="ymW-M8-8Js"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hut-Zb-owh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -366,6 +368,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7Q-DG-pjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1744.9275362318842" y="761.41304347826087"/>
+        </scene>
+        <!--電影海報 1-->
+        <scene sceneID="vbN-BK-kYW">
+            <objects>
+                <viewController id="rqV-Wu-1oe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="kV8-Jk-J0P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="jBP-c9-CPW">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="H1I-8m-RSQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="電影海報 1" id="ybb-kb-S9f">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="mvm-fZ-BSN"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="kBj-iR-eCY">
+                            <connections>
+                                <segue destination="Ey7-4t-tIW" kind="show" id="u2a-X5-61i"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HfA-37-75S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2328.985507246377" y="1518.7500000000002"/>
         </scene>
         <!--Sally Brown-->
         <scene sceneID="I4A-cW-H5j">
@@ -519,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jz0-dG-eEY" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3465.217391304348" y="1356.521739130435"/>
+            <point key="canvasLocation" x="3771.0144927536235" y="1369.5652173913045"/>
         </scene>
         <!--Schroeder-->
         <scene sceneID="xlH-Ee-e8M">
@@ -558,7 +589,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nw0-8F-UWO" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4194.202898550725" y="1357.3369565217392"/>
+            <point key="canvasLocation" x="4500" y="1369.5652173913045"/>
         </scene>
         <!--Pig Pen-->
         <scene sceneID="VOp-yv-3T0">
@@ -599,7 +630,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzk-bA-Idq" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4931.884057971015" y="1357.3369565217392"/>
+            <point key="canvasLocation" x="5239.130434782609" y="1369.5652173913045"/>
         </scene>
         <!--Marcie-->
         <scene sceneID="hso-eS-qne">
@@ -638,7 +669,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Wy-MQ-YE1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3158" y="2009"/>
+            <point key="canvasLocation" x="3768.115942028986" y="2084.5108695652175"/>
         </scene>
         <!--Vlolet-->
         <scene sceneID="Ko8-Uo-Fux">
@@ -677,7 +708,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Dy-tw-bn8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3887" y="2009"/>
+            <point key="canvasLocation" x="4497.1014492753629" y="2084.5108695652175"/>
         </scene>
         <!--Franklin-->
         <scene sceneID="Tdj-it-KmK">
@@ -716,11 +747,149 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHm-fq-z00" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4625" y="2009"/>
+            <point key="canvasLocation" x="5234.7826086956529" y="2084.5108695652175"/>
+        </scene>
+        <!--電影海報-->
+        <scene sceneID="kQK-I1-kWj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1BF-M2-Yp6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="電影海報" image="camera-7" selectedImage="camera-7" id="Gov-DE-Dmr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ghv-Fe-REg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rqV-Wu-1oe" kind="relationship" relationship="rootViewController" id="Mdp-hN-yuH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5as-RB-4cP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1561" y="1519"/>
+        </scene>
+        <!--電影海報 2-->
+        <scene sceneID="biJ-Lg-5pY">
+            <objects>
+                <viewController id="Ey7-4t-tIW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="Lqo-Ps-0ah">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="n0Q-CA-Tcu">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="z1r-ec-yCD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="電影海報 2" id="0FU-as-HKS">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Ezl-bg-1Vg"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="zyV-lX-K4q">
+                            <connections>
+                                <segue destination="Xk3-yS-BbM" kind="show" id="VJy-PW-LdO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WJF-qC-QKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2329" y="2740"/>
+        </scene>
+        <!--電影海報 3-->
+        <scene sceneID="3hk-an-oEC">
+            <objects>
+                <viewController id="Xk3-yS-BbM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="LlR-vf-u6c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="9xo-Gy-X44">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="LTf-n2-lQR"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="電影海報 3" id="xa8-nX-L6h">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Oc0-x0-pte"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="ehe-aY-Ezg">
+                            <connections>
+                                <segue destination="g61-rz-uXb" kind="show" id="7KI-Oq-Iw0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="987-KE-yGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3144.9275362318845" y="2739.9456521739135"/>
+        </scene>
+        <!--電影海報 4-->
+        <scene sceneID="g2I-mb-oz3">
+            <objects>
+                <viewController id="g61-rz-uXb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="Mrr-XQ-u2B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="k6Q-nR-2t8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="UD4-K7-cCh"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="電影海報 4" id="CXt-Wy-qVS">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="ylP-rJ-tpS"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="y7Q-Ll-1V1">
+                            <connections>
+                                <segue destination="F0p-xW-gVU" kind="show" id="B2C-E3-wMp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWs-ea-G6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3857.971014492754" y="2739.9456521739135"/>
+        </scene>
+        <!--電影海報 5-->
+        <scene sceneID="Jlo-ca-nTN">
+            <objects>
+                <viewController id="F0p-xW-gVU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="hbF-jQ-bUJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="V7l-AX-AMn">
+                                <rect key="frame" x="0.0" y="49" width="414" height="687"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="NEF-ec-OAI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="電影海報 5" id="U5z-nc-zLI">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="9Ei-l0-T9g"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="74d-PB-Bs6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4564" y="2740"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="500" height="735"/>
+        <image name="2" width="768" height="768"/>
+        <image name="4" width="182" height="268"/>
+        <image name="6" width="511" height="755"/>
+        <image name="7" width="203" height="300"/>
         <image name="MV5BNTE5NzMxNzkwNl5BMl5BanBnXkFtZTgwOTQ0Nzk5NzE@._V1_" width="486" height="720"/>
+        <image name="camera-7" width="30" height="30"/>
+        <image name="newspaper-7" width="30" height="30"/>
+        <image name="woman-man-7" width="29" height="30"/>
         <image name="乒乓" width="398" height="635"/>
         <image name="乒乓b" width="108" height="175"/>
         <image name="史努比" width="399" height="635"/>
