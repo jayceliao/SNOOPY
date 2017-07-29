@@ -12,7 +12,6 @@
 		2859946A1F28E41E00D16BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285994681F28E41E00D16BBF /* Main.storyboard */; };
 		2859946C1F28E41E00D16BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2859946B1F28E41E00D16BBF /* Assets.xcassets */; };
 		2859946F1F28E41E00D16BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2859946D1F28E41E00D16BBF /* LaunchScreen.storyboard */; };
-		28C21A191F2C8EE300059DF1 /* RoleList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C21A181F2C8EE300059DF1 /* RoleList.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		2859946B1F28E41E00D16BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2859946E1F28E41E00D16BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285994701F28E41E00D16BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28C21A181F2C8EE300059DF1 /* RoleList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RoleList.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				285994641F28E41E00D16BBF /* AppDelegate.swift */,
 				285994661F28E41E00D16BBF /* ViewController.swift */,
 				285994681F28E41E00D16BBF /* Main.storyboard */,
-				28C21A181F2C8EE300059DF1 /* RoleList.storyboard */,
 				2859946B1F28E41E00D16BBF /* Assets.xcassets */,
 				2859946D1F28E41E00D16BBF /* LaunchScreen.storyboard */,
 				285994701F28E41E00D16BBF /* Info.plist */,
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C21A191F2C8EE300059DF1 /* RoleList.storyboard in Resources */,
 				2859946F1F28E41E00D16BBF /* LaunchScreen.storyboard in Resources */,
 				2859946C1F28E41E00D16BBF /* Assets.xcassets in Resources */,
 				2859946A1F28E41E00D16BBF /* Main.storyboard in Resources */,

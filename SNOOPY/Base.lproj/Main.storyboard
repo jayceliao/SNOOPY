@@ -71,244 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2196" y="34"/>
-        </scene>
-        <!--角色介紹-->
-        <scene sceneID="7w5-FV-aVr">
-            <objects>
-                <viewController id="ngL-7U-ik1" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="LiI-jA-I2F">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htd-SB-wXw">
-                                <rect key="frame" x="18" y="84" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="查理布朗b"/>
-                                <connections>
-                                    <segue destination="0Ja-qB-ozu" kind="show" id="U4o-2a-bim"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wom-sM-gcl">
-                                <rect key="frame" x="17" y="233" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="莎莉布朗b"/>
-                                <connections>
-                                    <segue destination="iTS-LJ-pS1" kind="show" id="0iO-Yn-9Kg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkq-ne-nPE">
-                                <rect key="frame" x="146" y="233" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="派伯敏特·佩蒂b"/>
-                                <connections>
-                                    <segue destination="xcj-gK-xiZ" kind="show" id="nZ0-Ku-r8v"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9I-7J-wyl">
-                                <rect key="frame" x="274" y="232" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="露西b"/>
-                                <connections>
-                                    <segue destination="tAk-VP-APt" kind="show" id="na4-iF-daW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LP-1f-a5k">
-                                <rect key="frame" x="17" y="381" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="奈勒斯b"/>
-                                <connections>
-                                    <segue destination="7y2-bD-5bh" kind="show" id="S0r-R2-idZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdC-7x-gCV">
-                                <rect key="frame" x="146" y="380" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="謝勒德b"/>
-                                <connections>
-                                    <segue destination="0Fs-pI-492" kind="show" id="EYg-Xp-s1n"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gg1-Y5-Hp1">
-                                <rect key="frame" x="274" y="381" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="乒乓b"/>
-                                <connections>
-                                    <segue destination="5O0-40-HSV" kind="show" id="sj4-Rg-bJk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6l-lk-eaZ">
-                                <rect key="frame" x="17" y="529" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="瑪西b"/>
-                                <connections>
-                                    <segue destination="oDZ-yB-C9d" kind="show" id="r28-IF-EGg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uff-u6-hDm">
-                                <rect key="frame" x="145" y="529" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="范蕾特b"/>
-                                <connections>
-                                    <segue destination="t8M-pi-XpT" kind="show" id="bFQ-Xs-6RE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b80-GQ-Kzf">
-                                <rect key="frame" x="146" y="84" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="史努比b"/>
-                                <connections>
-                                    <segue destination="t7f-Mj-wxE" kind="show" id="Rtb-Pm-oWn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTz-k7-eW7">
-                                <rect key="frame" x="274" y="83" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="糊塗塔克b"/>
-                                <connections>
-                                    <segue destination="lxB-jJ-oX1" kind="show" id="Fej-wb-Lrk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFk-V2-8ZE">
-                                <rect key="frame" x="274" y="529" width="120" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="富蘭克林b"/>
-                                <connections>
-                                    <segue destination="HCa-x1-T2E" kind="show" id="nEg-yO-5np"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="fNG-ta-eoR"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="l4Y-yq-i8b"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="角色介紹" id="u0i-uk-jty"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hdt-Cq-gCB" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2502.898550724638" y="760.59782608695662"/>
-        </scene>
-        <!--Charlie Brown-->
-        <scene sceneID="3Xt-3w-7df">
-            <objects>
-                <viewController id="0Ja-qB-ozu" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="XBY-JS-0eP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="查理布朗" translatesAutoresizingMaskIntoConstraints="NO" id="ZLp-Ao-xke">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nte-Gm-9nA">
-                                <rect key="frame" x="51" y="489" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">查理·布朗（Charlie Brown）
-
-配音：Noah Schnapp / 沈昶宏(台) / 鈴木福(日)
-
-做什麼事情都會失敗，有點像現代的「魯蛇」，連放風箏都會失敗，但其實有著難能可貴的優點：有愛心、勇敢、誠實。
-
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="i4V-cP-jyS"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="hSn-3Z-5mn"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Charlie Brown" id="cHa-CG-C9E"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zSu-dG-Eo1" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3455" y="34"/>
-        </scene>
-        <!--Snoopy-->
-        <scene sceneID="2vr-aZ-zkd">
-            <objects>
-                <viewController id="t7f-Mj-wxE" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="xkf-MM-7jD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="史努比" translatesAutoresizingMaskIntoConstraints="NO" id="vnG-Hm-XFL">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY0-HR-OmV">
-                                <rect key="frame" x="53" y="469" width="309" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">史努比（Snoopy）
-
-配音：比爾梅倫德斯（Bill Melendez）
-
-喜歡寫小說，常坐在狗屋上幻想自己是王牌飛行員開著飛機的故事情節，主要內容是跟第一次世界大戰的德國飛行員「紅男爵」(Red Baron)曼弗雷德·馮·里希特霍芬(Manfred von Richthofen)進行空戰，救出他心愛的女孩菲菲。
-
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Up-rD-O0q"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="nEu-VL-2EK"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Snoopy" id="O15-P0-lBG"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HEj-9s-a13" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4184" y="34"/>
-        </scene>
-        <!--Woodstock-->
-        <scene sceneID="gp9-FH-fA7">
-            <objects>
-                <viewController id="lxB-jJ-oX1" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="vRz-Eo-XEa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="糊塗塔克" translatesAutoresizingMaskIntoConstraints="NO" id="xXO-Df-Bxc">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66f-fN-VWi">
-                                <rect key="frame" x="51" y="475" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">糊塗塌客（Woodstock）
-
-配音：比爾梅倫德斯（Bill Melendez）
-
-糊塗塌客與幾隻小黃鳥都是史努比幻想中的飛機維修技師，現實生活中是史努比的好朋友。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="s4G-uI-hJ4"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="0S4-yv-gcN"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Woodstock" id="zcF-ul-03X"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fT7-ev-na5" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4922" y="34"/>
+            <point key="canvasLocation" x="3529" y="-216"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Dfz-U9-7Sn">
@@ -322,13 +85,13 @@
                     </tabBar>
                     <connections>
                         <segue destination="Qi6-xQ-ofy" kind="relationship" relationship="viewControllers" id="o84-09-Ef9"/>
-                        <segue destination="VGR-xz-bjf" kind="relationship" relationship="viewControllers" id="Bab-NI-1l2"/>
+                        <segue destination="PZa-GX-96i" kind="relationship" relationship="viewControllers" id="tVe-PQ-ZdY"/>
                         <segue destination="1BF-M2-Yp6" kind="relationship" relationship="viewControllers" id="Swi-ZJ-PEz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttw-WO-fgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="667" y="35"/>
+            <point key="canvasLocation" x="1584" y="-199"/>
         </scene>
         <!--劇情介紹-->
         <scene sceneID="SO7-ZA-D9y">
@@ -348,26 +111,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZZ-Uz-LXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="35"/>
-        </scene>
-        <!--角色介紹-->
-        <scene sceneID="FVC-vg-TPN">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VGR-xz-bjf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="角色介紹" image="woman-man-7" selectedImage="woman-man-7" id="ymW-M8-8Js"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hut-Zb-owh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="ngL-7U-ik1" kind="relationship" relationship="rootViewController" id="a5g-Lu-W9D"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7Q-DG-pjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1744.9275362318842" y="761.41304347826087"/>
+            <point key="canvasLocation" x="2510" y="-216"/>
         </scene>
         <!--電影海報 1-->
         <scene sceneID="vbN-BK-kYW">
@@ -396,358 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HfA-37-75S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2328.985507246377" y="1518.7500000000002"/>
-        </scene>
-        <!--Sally Brown-->
-        <scene sceneID="I4A-cW-H5j">
-            <objects>
-                <viewController id="iTS-LJ-pS1" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="NhL-go-y7S">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u91-bx-qod">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">莎莉·布朗（Sally Brown）
-
-配音：Mariel Sheets / 喬喬(台) / 小林星蘭(日)
-
-是查理的妹妹，會利用哥哥的名氣賺錢。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="莎莉·布朗" translatesAutoresizingMaskIntoConstraints="NO" id="0vF-NF-6Id">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="rC7-jP-Crf"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="joh-7i-GvM"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Sally Brown" id="U3j-md-ypf"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6PF-8k-0i7" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3465.217391304348" y="698.64130434782612"/>
-        </scene>
-        <!--Peppermint Patty-->
-        <scene sceneID="iXt-H7-RGz">
-            <objects>
-                <viewController id="xcj-gK-xiZ" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="dus-su-Rtd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="064-6f-fvW">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">派伯敏特·佩蒂（Peppermint Patty）
-
-配音：Venus Schultheis / 屈丞貽(台)
-
-很喜歡運動曲棍球，喜歡查理·布朗，但在電影中跟班瑪西都叫她「長官」（Sir）</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="派伯敏特·佩蒂" translatesAutoresizingMaskIntoConstraints="NO" id="bf7-Nc-W7D">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="wMO-w1-se6"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="2j6-5C-gAF"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Peppermint Patty" id="ffH-ni-pby"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gHS-DM-aFH" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4194.202898550725" y="698.64130434782612"/>
-        </scene>
-        <!--Lucy-->
-        <scene sceneID="MFl-ZE-v3J">
-            <objects>
-                <viewController id="tAk-VP-APt" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="OJT-BN-KhI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDh-iq-psz">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">露西（Lucy）
-
-配音：Hadley Belle Miller / 黃繶凡(台) / 谷花音(日)
-
-喜歡謝勒德，會開設心理諮詢師的小攤，不服輸個性，一開始一直不願承認查理·布朗比他優秀。</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="露西" translatesAutoresizingMaskIntoConstraints="NO" id="b8S-KT-IHg">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="QBi-kf-YvJ"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="iHc-4l-wsI"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Lucy" id="s9Y-ZQ-M4R"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ac-pL-bfA" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4931.884057971015" y="698.64130434782612"/>
-        </scene>
-        <!--Linus-->
-        <scene sceneID="u1c-jz-hJI">
-            <objects>
-                <viewController id="7y2-bD-5bh" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="EwZ-EN-vuV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2v-xz-Q6Z">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">奈勒斯·潘貝魯特（Linus）
-
-配音：Alexander Garfin / Ryder(台)
-
-總是抱著毛毯，頭髮造型很特別，尤其3D畫之後把那些頭髮變成一撮一撮的，很逗趣。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="奈勒斯" translatesAutoresizingMaskIntoConstraints="NO" id="G6T-4U-YdP">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Asb-p2-SHs"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="epc-Of-I5l"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Linus" id="Eop-8t-AJK"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jz0-dG-eEY" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3771.0144927536235" y="1369.5652173913045"/>
-        </scene>
-        <!--Schroeder-->
-        <scene sceneID="xlH-Ee-e8M">
-            <objects>
-                <viewController id="0Fs-pI-492" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="1FF-s0-cmI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xpr-gi-IKz">
-                                <rect key="frame" x="51" y="468" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">謝勒德（Schroeder）
-
-配音：Noah Johnston
-
-喜歡彈鋼琴。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="謝勒德" translatesAutoresizingMaskIntoConstraints="NO" id="Cay-p4-sdj">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="KQl-5K-edd"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="3tV-NX-fyY"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Schroeder" id="SEF-iM-Bjp"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nw0-8F-UWO" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4500" y="1369.5652173913045"/>
-        </scene>
-        <!--Pig Pen-->
-        <scene sceneID="VOp-yv-3T0">
-            <objects>
-                <viewController id="5O0-40-HSV" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="u2j-9K-8hy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0p-2b-cFm">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">乒乓（Pigpen）
-
-配音：A.J. Tecce / YAYA(台)
-
-名字原意是「豬圈」，因為身上隨時都很骯髒。漫畫中隨時都帶著的沙塵暴，在電影中也是用漫畫筆的筆觸加上沙子的動畫呈現。
-
-
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="乒乓" translatesAutoresizingMaskIntoConstraints="NO" id="h5f-Ud-d0J">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="7Ig-BK-vwb"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="CI8-uC-ijh"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Pig Pen" id="XAL-vc-5Bg"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uzk-bA-Idq" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5239.130434782609" y="1369.5652173913045"/>
-        </scene>
-        <!--Marcie-->
-        <scene sceneID="hso-eS-qne">
-            <objects>
-                <viewController id="oDZ-yB-C9d" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="3zQ-0M-7Xh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mea-wV-bAQ">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">瑪西（Marcie）
-
-配音：Rebecca Bloom / 王昀安(台)
-
-派伯敏特·佩蒂的跟班，很喜歡看書，很聰明。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑪西" translatesAutoresizingMaskIntoConstraints="NO" id="QUS-uo-zL6">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="fAX-X7-wsS"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="4qo-CQ-rah"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Marcie" id="sZ7-ax-bwM"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Wy-MQ-YE1" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3768.115942028986" y="2084.5108695652175"/>
-        </scene>
-        <!--Vlolet-->
-        <scene sceneID="Ko8-Uo-Fux">
-            <objects>
-                <viewController id="t8M-pi-XpT" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="c0C-s9-dEa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wg-0Q-87Y">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">范蕾特（Vlolet）
-
-配音：Madisyn Shipman / 屈卉妍(台)
-
-在電影中比較沒去注意到這一位。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="范蕾特" translatesAutoresizingMaskIntoConstraints="NO" id="49m-jj-As8">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="yVW-tV-ZsV"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="SkP-Kj-ELg"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Vlolet" id="lN0-Fu-R1g"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Dy-tw-bn8" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4497.1014492753629" y="2084.5108695652175"/>
-        </scene>
-        <!--Franklin-->
-        <scene sceneID="Tdj-it-KmK">
-            <objects>
-                <viewController id="HCa-x1-T2E" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="BFi-mc-cUb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTY-po-658">
-                                <rect key="frame" x="51" y="492" width="309" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">富蘭克林（Franklin）
-
-配音：Mar Mar / 駱炫銘(台)
-
-印象中也是沒有什麼劇情的角色。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="富蘭克林" translatesAutoresizingMaskIntoConstraints="NO" id="ap9-JB-kPA">
-                                <rect key="frame" x="51" y="86" width="309" height="381"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="ikF-6c-uRO"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="uIG-9F-Qe1"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Franklin" id="8xh-yy-9bI"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dHm-fq-z00" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5234.7826086956529" y="2084.5108695652175"/>
+            <point key="canvasLocation" x="2509" y="573"/>
         </scene>
         <!--電影海報-->
         <scene sceneID="kQK-I1-kWj">
@@ -766,7 +159,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5as-RB-4cP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1561" y="1519"/>
+            <point key="canvasLocation" x="1583" y="573"/>
         </scene>
         <!--電影海報 2-->
         <scene sceneID="biJ-Lg-5pY">
@@ -795,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJF-qC-QKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2329" y="2740"/>
+            <point key="canvasLocation" x="3303" y="573"/>
         </scene>
         <!--電影海報 3-->
         <scene sceneID="3hk-an-oEC">
@@ -824,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="987-KE-yGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3144.9275362318845" y="2739.9456521739135"/>
+            <point key="canvasLocation" x="4122" y="573"/>
         </scene>
         <!--電影海報 4-->
         <scene sceneID="g2I-mb-oz3">
@@ -853,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWs-ea-G6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3857.971014492754" y="2739.9456521739135"/>
+            <point key="canvasLocation" x="4835" y="573"/>
         </scene>
         <!--電影海報 5-->
         <scene sceneID="Jlo-ca-nTN">
@@ -877,7 +270,612 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="74d-PB-Bs6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4564" y="2740"/>
+            <point key="canvasLocation" x="5541" y="572"/>
+        </scene>
+        <!--角色介紹-->
+        <scene sceneID="4dJ-75-CcI">
+            <objects>
+                <viewController storyboardIdentifier="Main" id="rnQ-r8-QZE" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="Z2r-5p-4SW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzh-hT-neQ">
+                                <rect key="frame" x="42" y="85" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="查理布朗b"/>
+                                <connections>
+                                    <segue destination="d58-UW-7B9" kind="show" id="2S4-Dq-GmO">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nly-Ye-ex6">
+                                <rect key="frame" x="42" y="233" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="莎莉布朗b"/>
+                                <connections>
+                                    <segue destination="Dha-bv-sBK" kind="show" id="INI-em-JXx">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXm-w3-xSy">
+                                <rect key="frame" x="164" y="233" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="派伯敏特·佩蒂b"/>
+                                <connections>
+                                    <segue destination="yKH-L9-WGn" kind="show" id="b3P-Hm-jJY">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RC-Qj-jQO">
+                                <rect key="frame" x="281" y="233" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="露西b"/>
+                                <connections>
+                                    <segue destination="vCw-0v-9Zz" kind="show" id="EnQ-zn-8ct">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZO-o9-0sc">
+                                <rect key="frame" x="42" y="381" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="奈勒斯b"/>
+                                <connections>
+                                    <segue destination="BIn-rj-h0i" kind="show" id="l1C-E1-Kag">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-1e-2qp">
+                                <rect key="frame" x="164" y="380" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="謝勒德b"/>
+                                <connections>
+                                    <segue destination="Ndc-7e-mbz" kind="show" id="p0h-R8-yfv">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sI8-eu-Dw4">
+                                <rect key="frame" x="281" y="381" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="乒乓b"/>
+                                <connections>
+                                    <segue destination="zJC-x1-7aY" kind="show" id="dNl-Tp-GNk">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQk-2y-6oq">
+                                <rect key="frame" x="164" y="85" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="史努比b"/>
+                                <connections>
+                                    <segue destination="F6f-73-RRl" kind="show" id="CxP-pz-X7U">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h34-hA-Tou">
+                                <rect key="frame" x="281" y="84" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="糊塗塔克b"/>
+                                <connections>
+                                    <segue destination="xzk-7S-BXA" kind="show" id="zAb-qL-Zoe">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLq-s1-CqC">
+                                <rect key="frame" x="42" y="529" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="瑪西b"/>
+                                <connections>
+                                    <segue destination="IB6-1h-leh" kind="show" id="2FJ-ig-RtC">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEL-1h-KLE">
+                                <rect key="frame" x="164" y="528" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="范蕾特b"/>
+                                <connections>
+                                    <segue destination="YJX-sK-Wef" kind="show" id="Pmh-J9-fyG">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ab9-fi-5sA">
+                                <rect key="frame" x="281" y="529" width="86" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="富蘭克林b"/>
+                                <connections>
+                                    <segue destination="QfY-w3-Sou" kind="show" id="JHt-vk-bY0">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="otJ-zb-s0m"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="角色介紹" id="DCi-wO-XtS"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1pL-HT-0Vi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="1853"/>
+        </scene>
+        <!--Charlie Brown-->
+        <scene sceneID="Zjc-kC-xGX">
+            <objects>
+                <viewController id="d58-UW-7B9" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="nwP-bq-qax">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="查理布朗" translatesAutoresizingMaskIntoConstraints="NO" id="w0b-fA-1xy">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDd-Ra-ln6">
+                                <rect key="frame" x="51" y="489" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">查理·布朗（Charlie Brown）
+
+配音：Noah Schnapp / 沈昶宏(台) / 鈴木福(日)
+
+做什麼事情都會失敗，有點像現代的「魯蛇」，連放風箏都會失敗，但其實有著難能可貴的優點：有愛心、勇敢、誠實。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="8zr-6R-E2r"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Charlie Brown" id="HAb-Ns-v8m"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1C-zj-aep" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="2674"/>
+        </scene>
+        <!--Snoopy-->
+        <scene sceneID="YLZ-1t-InZ">
+            <objects>
+                <viewController id="F6f-73-RRl" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="fqY-af-BEg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="史努比" translatesAutoresizingMaskIntoConstraints="NO" id="nVl-AS-uVH">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URv-xA-9y7">
+                                <rect key="frame" x="53" y="469" width="309" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">史努比（Snoopy）
+
+配音：比爾梅倫德斯（Bill Melendez）
+
+喜歡寫小說，常坐在狗屋上幻想自己是王牌飛行員開著飛機的故事情節，主要內容是跟第一次世界大戰的德國飛行員「紅男爵」(Red Baron)曼弗雷德·馮·里希特霍芬(Manfred von Richthofen)進行空戰，救出他心愛的女孩菲菲。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="uPJ-RJ-Q4K"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Snoopy" id="euR-Ff-qPj"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRo-CP-db6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897" y="2675"/>
+        </scene>
+        <!--Woodstock-->
+        <scene sceneID="gjK-jA-hJ7">
+            <objects>
+                <viewController id="xzk-7S-BXA" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="dnX-tT-C1d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="糊塗塔克" translatesAutoresizingMaskIntoConstraints="NO" id="SBV-gb-U4h">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3O-D8-zO2">
+                                <rect key="frame" x="51" y="475" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">糊塗塌客（Woodstock）
+
+配音：比爾梅倫德斯（Bill Melendez）
+
+糊塗塌客與幾隻小黃鳥都是史努比幻想中的飛機維修技師，現實生活中是史努比的好朋友。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="NyV-PG-WZ4"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Woodstock" id="LQ0-EI-adm"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzM-qb-lub" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582.608695652174" y="2673.913043478261"/>
+        </scene>
+        <!--角色介紹-->
+        <scene sceneID="uRP-aW-Zoc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PZa-GX-96i" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="角色介紹" image="woman-man-7" selectedImage="woman-man-7" id="8mL-gw-sQl"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rGu-fD-dpj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rnQ-r8-QZE" kind="relationship" relationship="rootViewController" id="p8I-lo-Mzo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLt-qk-HOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="658" y="572"/>
+        </scene>
+        <!--Sally Brown-->
+        <scene sceneID="f8y-Sl-hkx">
+            <objects>
+                <viewController id="Dha-bv-sBK" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="QC1-zu-QZh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBn-4r-Tee">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">莎莉·布朗（Sally Brown）
+
+配音：Mariel Sheets / 喬喬(台) / 小林星蘭(日)
+
+是查理的妹妹，會利用哥哥的名氣賺錢。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="莎莉·布朗" translatesAutoresizingMaskIntoConstraints="NO" id="keM-8V-qGF">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="DhT-56-7NB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Sally Brown" id="Kdt-ml-pk0"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyW-CW-qyu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="3321"/>
+        </scene>
+        <!--Peppermint Patty-->
+        <scene sceneID="ERF-9E-Efb">
+            <objects>
+                <viewController id="yKH-L9-WGn" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="7QE-Ff-Fhc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqy-nb-dVn">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">派伯敏特·佩蒂（Peppermint Patty）
+
+配音：Venus Schultheis / 屈丞貽(台)
+
+很喜歡運動曲棍球，喜歡查理·布朗，但在電影中跟班瑪西都叫她「長官」（Sir）</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="派伯敏特·佩蒂" translatesAutoresizingMaskIntoConstraints="NO" id="hYk-fG-swa">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="5id-Z3-ohu"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Peppermint Patty" id="ox6-vG-r0e"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXB-L8-zoh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="3320"/>
+        </scene>
+        <!--Lucy-->
+        <scene sceneID="42U-ce-Xml">
+            <objects>
+                <viewController id="vCw-0v-9Zz" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="xXY-SP-sKL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="co9-29-RKL">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">露西（Lucy）
+
+配音：Hadley Belle Miller / 黃繶凡(台) / 谷花音(日)
+
+喜歡謝勒德，會開設心理諮詢師的小攤，不服輸個性，一開始一直不願承認查理·布朗比他優秀。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="露西" translatesAutoresizingMaskIntoConstraints="NO" id="c0b-OD-Ne6">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PEt-dw-4bI"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Lucy" id="6RW-mO-xcS"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vcR-rl-J3z" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1583" y="3320"/>
+        </scene>
+        <!--Linus-->
+        <scene sceneID="iPV-xv-6uV">
+            <objects>
+                <viewController id="BIn-rj-h0i" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="Rgb-bX-p41">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd1-wc-mPf">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">奈勒斯·潘貝魯特（Linus）
+
+配音：Alexander Garfin / Ryder(台)
+
+總是抱著毛毯，頭髮造型很特別，尤其3D畫之後把那些頭髮變成一撮一撮的，很逗趣。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="奈勒斯" translatesAutoresizingMaskIntoConstraints="NO" id="hao-gj-R5N">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4hX-x8-DDM"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Linus" id="9yi-6X-37K"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iZJ-Qp-MoB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213" y="3968"/>
+        </scene>
+        <!--Schroeder-->
+        <scene sceneID="neA-db-1HM">
+            <objects>
+                <viewController id="Ndc-7e-mbz" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="ORU-f0-QWV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wc7-x6-5UQ">
+                                <rect key="frame" x="51" y="468" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">謝勒德（Schroeder）
+
+配音：Noah Johnston
+
+喜歡彈鋼琴。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="謝勒德" translatesAutoresizingMaskIntoConstraints="NO" id="JB5-uM-x8q">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ylp-XV-Ydc"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Schroeder" id="qCf-S3-2Nf"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3UU-KM-rhL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="3968"/>
+        </scene>
+        <!--Pig Pen-->
+        <scene sceneID="yGV-yG-N4g">
+            <objects>
+                <viewController id="zJC-x1-7aY" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="G38-GL-v4T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW9-mc-mV5">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">乒乓（Pigpen）
+
+配音：A.J. Tecce / YAYA(台)
+
+名字原意是「豬圈」，因為身上隨時都很骯髒。漫畫中隨時都帶著的沙塵暴，在電影中也是用漫畫筆的筆觸加上沙子的動畫呈現。
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="乒乓" translatesAutoresizingMaskIntoConstraints="NO" id="frk-tY-sov">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UfK-iF-pHX"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Pig Pen" id="EG8-Pn-vvG"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ns9-It-BBh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1681" y="3968"/>
+        </scene>
+        <!--Marcie-->
+        <scene sceneID="Nef-KT-hRI">
+            <objects>
+                <viewController id="IB6-1h-leh" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="WeS-Z3-0vx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdW-V6-b93">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">瑪西（Marcie）
+
+配音：Rebecca Bloom / 王昀安(台)
+
+派伯敏特·佩蒂的跟班，很喜歡看書，很聰明。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑪西" translatesAutoresizingMaskIntoConstraints="NO" id="deA-8M-7fK">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="f1c-wr-cTA"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Marcie" id="NWi-5l-9Bi"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7IW-JX-e8E" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="4682"/>
+        </scene>
+        <!--Vlolet-->
+        <scene sceneID="B49-iw-h1T">
+            <objects>
+                <viewController id="YJX-sK-Wef" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="bhb-Gn-RRT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyv-W9-AC9">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">范蕾特（Vlolet）
+
+配音：Madisyn Shipman / 屈卉妍(台)
+
+在電影中比較沒去注意到這一位。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="范蕾特" translatesAutoresizingMaskIntoConstraints="NO" id="RIv-ip-Pb7">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="TiS-Rc-u5r"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Vlolet" id="wcd-iV-5G9"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRd-pe-ySY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="4682"/>
+        </scene>
+        <!--Franklin-->
+        <scene sceneID="wHm-3k-7sR">
+            <objects>
+                <viewController id="QfY-w3-Sou" customClass="ViewController" customModule="SNOOPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8mu-IF-cNv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pc0-W9-0vn">
+                                <rect key="frame" x="51" y="492" width="309" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">富蘭克林（Franklin）
+
+配音：Mar Mar / 駱炫銘(台)
+
+印象中也是沒有什麼劇情的角色。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="富蘭克林" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-Hy-B7M">
+                                <rect key="frame" x="51" y="86" width="309" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Rtl-z1-E3T"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Franklin" id="4SN-xN-ROK"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYP-Lf-oEj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1675" y="4682"/>
         </scene>
     </scenes>
     <resources>
